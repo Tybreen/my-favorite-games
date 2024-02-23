@@ -3,14 +3,38 @@ body {
 }
 nav {
   background-color: white;
+  border-radius: 5vw;
+  border-width: 2px;
+  border-style: dashed;
+  border-color: black;
   text-align: center;
+}
+h1 {
+  font-size: min(4vw, 30px);
+  border-style: double solid;
+  border-width: 8px;
+  border-radius: 5px;
+  border-color: black;
+  padding: 10px;
+}
+li, p {
+  font-size: max(20px, min(2vw, 30px));
+}
+img {
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px 0px black;
+  width: min(500px, 80vw);
 }
 nav * {
   margin: 0px 5px;
+  font-size: min(3vw, 30px);
 }
 nav > p {
-  font-size: 25px;
+  font-size: min(5vw, 50px);
   color: black;
+}
+nav > p:hover {
+  cursor: default;
 }
 nav > a {
   color: rgb(120, 120, 120);

@@ -1,0 +1,21 @@
+body {
+  background-color: antiquewhite;
+}
+nav {
+  background-color: white;
+  text-align: center;
+}
+nav * {
+  margin: 0px 5px;
+}
+nav > p {
+  font-size: 25px;
+  color: black;
+}
+a {
+  color: rgb(120, 120, 120);
+}
+.inline {
+  display: inline-block;
+  margin: 0px;
+}
